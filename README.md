@@ -1,19 +1,18 @@
 # coding_challenge_21
 
-[GovData.de](https://www.govdata.de/) ist das Datenportal für Deutschland. Bund, Länder und Kommunen können hier Daten ihrer Verwaltungen anbieten. Obwohl das “Open-Data-Gesetz” dazu verpflichtet, Daten bereit zu stellen, wurden bisher nur ca. 52.000 Datensätze geteilt. 
+[GovData.de](https://www.govdata.de/) is the data portal for Germany. The federal, state and local governments can share their data. Although the "Open Data Act" makes it obligatory to share data, only about 52,000 data sets are online so far.
 
 ![](https://www.govdata.de/o/govdatastyle-theme/images/datavisuals/connectionmap.jpg)
 
-## Aufgabe
-Stelle in einem kleinen Dashboard übersichtlich dar, wie viele Datensätze jedes Bundesministerium auf GovData zur Verfügung gestellt hat. Es sollte schnell ersichtlich sein, welche Ministerien die meisten Daten zur Verfügung gestellt haben. Länder, Kommunen und weitere Einrichtungen können ignoriert werden. 
+## Your Task
+Create a small dashboard that shows how many data sets each federal ministry has made available on GovData. It should be easy to tell which ministries have provided the most data. States, municipalities and other institutions can be ignored.
 
-GovData stellt zwei Schnittstellen zur Verfügung. Nutze entweder die [CKAN-API](https://www.govdata.de/ckan/api/3) [(Doku)](https://docs.ckan.org/en/2.8/api/) oder die [SPARQL-API](https://www.govdata.de/web/guest/sparql-assistent), um diese Aufgabe zu lösen. In 'departments.json' findest Du alle Bundesministerien sowie deren nachgelagerte Behörden, die Daten auf GovData geteilt haben. 
+GovData provides two APIs. Use either the [CKAN-API](https://www.govdata.de/ckan/api/3) [(docs)](https://docs.ckan.org/en/2.8/api/) or the [SPARQL-API](https://www.govdata.de/web/guest/sparql-assistent) to solve this challenge. In 'departments.json' you will find all federal ministries and their subordinated agencies that have published data on GovData.
 
-Nutze einen nicht-proprietären Tech-Stack deiner Wahl und erkläre in einem Readme wie wir deine Lösung zum Laufen bringen. Bitte schicke Deine Lösung per Mail an [challenge@tech4germany.org](mailto:challenge@tech4germany.org). 
+Use a non-proprietary tech stack of your choice and explain in a readme how to run your solution. Please email your solution to [challenge@tech4germany.org](mailto:challenge@tech4germany.org).
 
-## Bewertung
-Du solltest für diese Challenge nicht mehr als 1-2 Stunden benötigen. Es ist möglich, innerhalb einer Stunde die volle Punktzahl zu erreichen.
-Wir wollen sehen, dass Du mit APIs umgehen kannst und ressourcenschonend mit ihnen bist. Du solltest Dich mit Deinen Tools wohlfühlen und in der Lage sein, sauberen Code zu schreiben. Wir erwarten, dass Du reflektieren und begründen kannst, wie Du vorgegangen bist. Das Design werden wir nicht bewerten. 
+## Evaluation
+Don't take more than 1-2 hours for this challenge. It is possible to get the full score within one hour. We want to see that you know how to use APIs in a resourceful way. You should be comfortable with your tools and able to write clean code. We expect you to be able to reflect and justify your approach. We will not evaluate the UI.
 
-## Viel Spaß! 🚀
-Wir freuen uns auf deine Einreichung!
+## Have fun! 🚀
+We look forward to your submission!
